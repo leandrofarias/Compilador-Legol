@@ -1,0 +1,16 @@
+algoritmo "Exemplo25"
+var
+a:real
+b:real
+c:real
+delta:real
+inicio
+	escreval("De acordo com a equação do segundo grau descrita como Ax² + Bx + C = 0...")
+	escreval("... informe o valor de A, B e C, respectivamente:")
+	escreval()
+	
+	leia(a,b,c)
+	delta <- (b^2) - 4 * a * c
+	escreval()
+	escreva("Delta da equação: ", delta)
+fimalgoritmo

@@ -1,0 +1,23 @@
+algoritmo "Exemplo21"
+var
+media:real
+nota1:real
+nota2:real
+inicio
+	escreva("Digite a primeira nota: ") // O usuario entra com a primeira nota
+	leia(nota1)
+	escreva("Digite a segunda nota: ")
+	leia (nota2)
+	media<-(nota1+nota2)/2
+	se (media >= 7) e (media <> 10) entao // Avalia se a media do aluno é maior ou igual 7 e diferente de 10
+		escreva ("Aprovado.") // Se sim, logo o aluno é aprovado
+	fimse
+
+	se (media < 7) entao // Senao, ele reprova
+		escreva("Reprovado.")
+	fimse
+	
+	se (media = 10) entao
+		escreva("Aprovado com distinção.") // Mas se for 10 ele é aprovado com distinção
+	fimse
+fimalgoritmo

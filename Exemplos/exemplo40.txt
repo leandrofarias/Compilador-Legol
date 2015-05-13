@@ -1,0 +1,12 @@
+algoritmo "Exemplo40"
+var
+a:real
+p:real
+s:caractere
+inicio
+	escreva("Digite a altura de uma mulher: ")
+	leia(a)
+
+	p <- (62.1 * a) - 44.7
+	escreval("O peso ideal dela é: ",p)
+fimalgoritmo

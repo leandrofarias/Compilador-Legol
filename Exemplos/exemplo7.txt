@@ -1,0 +1,11 @@
+algoritmo "Exemplo7"
+var
+lado:real
+area:real
+inicio
+      escreva("Digite o tamanho do lado de um quadrado: ")
+      leia(lado)
+      area <- lado^2
+      escreval("A área do quadrado é igual a ", area)
+      escreva("O dobro desta área é ", 2*area)
+fimalgoritmo

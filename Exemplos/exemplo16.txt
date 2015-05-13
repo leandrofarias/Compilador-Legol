@@ -1,0 +1,13 @@
+algoritmo "Exemplo16"
+var
+base:real
+altura:real
+area: real
+inicio
+   escreval("Digite o valor da base: ")
+   leia(base)
+   escreval("Digite o valor da altura: ")
+   leia(altura)
+   area<-(base*altura)/2
+   escreval("A área do triângulo é ", area)
+fimalgoritmo

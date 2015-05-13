@@ -1,0 +1,10 @@
+algoritmo "Exemplo9"
+var
+farenheit:real
+celsius:real
+inicio
+      escreva("Digite uma temperatura em Farenheit: ")
+      leia(farenheit)
+      celsius <- (5*(farenheit-32)/9)
+      escreva("Esta temperatura em Celsius é igual a ", celsius)
+fimalgoritmo

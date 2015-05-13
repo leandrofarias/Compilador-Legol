@@ -1,0 +1,23 @@
+algoritmo "Exemplo27" 
+var
+v1: inteiro
+v2: inteiro 
+v3: inteiro
+inicio
+	escreval("Digite o valor de duas variáveis inteiras:")
+	escreval()
+	
+	leia(v1,v2)
+	
+	escreval("V1 = ",v1,"   V2 = ",v2)
+	escreval()
+
+	escreval("Trocando o valor das variáveis...")
+	escreval()
+	
+	v3 <- v2
+	v2 <- v1
+	v1 <- v3
+	
+	escreval("V1 = ",v1,"   V2 = ",v2)
+fimalgoritmo

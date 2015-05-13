@@ -1,0 +1,25 @@
+algoritmo "Exemplo37"
+var
+matriz: vetor  [0..2,0..2] de inteiro
+cont1:inteiro
+cont2: inteiro
+
+inicio
+
+para cont1 de 0 ate 2 faca
+  para cont2 de 0 ate 2  faca
+      escreva("Digite um número inteiro: ")
+      leia(matriz[cont1,cont2])
+  fimpara
+fimpara
+
+escreval("A matriz digitada é: ")
+
+para cont1 de 0 ate 2  faca
+  para cont2 de 0 ate 2  faca
+      escreva(matriz[cont1,cont2]," ")
+  fimpara
+  escreval()
+fimpara
+
+fimalgoritmo

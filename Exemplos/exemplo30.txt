@@ -1,0 +1,23 @@
+algoritmo "Exemplo30" 
+var
+v1:inteiro
+v2:inteiro
+inicio
+	escreval("Informe dois números:")
+	leia(v1,v2)
+	escreval()
+	
+	se v1 >= v2 entao
+		se (v1 mod v2 = 0) entao
+			escreval(v1," é divisível por",v2)
+		senao
+			escreval(v1," não é divisível por",v2)
+		fimse
+	senao
+		se (v2 mod v1 = 0) entao
+			escreval(v2," é divisível por",v1)
+		senao
+			escreval(v2," não é divisível por",v1)
+     		fimse
+	fimse
+fimalgoritmo

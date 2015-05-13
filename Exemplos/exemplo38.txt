@@ -1,0 +1,10 @@
+algoritmo "Exemplo38"
+var
+cont: inteiro
+inicio
+cont<-2
+enquanto (cont <= 20) faca
+	escreval(cont)
+	cont<- cont + 2
+fimenquanto
+fimalgoritmo

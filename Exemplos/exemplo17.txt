@@ -1,0 +1,15 @@
+algoritmo "Exemplo17"
+var
+num:inteiro
+num1:inteiro
+inicio
+	escreva ("Digite o primeiro numero") //o usuário deverá informar um numero
+	leia (num)
+	escreva ("Digite o segundo numero")
+	leia (num1)
+	se (num > num1) entao //comparação para saber se um numero é maior que o outro
+		escreva ("O maior é ", num)
+	senao
+		escreva("O maior é ", num1) // imprime na tela o maior numero
+	fimse
+fimalgoritmo

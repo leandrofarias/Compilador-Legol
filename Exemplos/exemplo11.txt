@@ -1,0 +1,17 @@
+algoritmo "Exemplo11"
+var
+numero1:inteiro
+numero2:inteiro
+numero3:real
+inicio
+escreva("Digite um número inteiro: ")
+leia(numero1)
+escreva("Digite outro número inteiro: ")
+leia(numero2)
+escreva("Digite um número real: ")
+leia(numero3)
+
+escreval("O produto do dobro do primeiro com metade do segundo é igual a ", (2*numero1)*(numero2/2))
+escreval("A soma do triplo do primeiro com o terceiro é igual a ", (3*numero1)+(numero3))
+escreval("O terceiro elevado ao cubo é igual a ", numero3^3)
+fimalgoritmo

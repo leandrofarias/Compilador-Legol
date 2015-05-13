@@ -1,0 +1,18 @@
+algoritmo "Exemplo45"
+var
+nome_vendedor:caractere
+salario_fixo:real
+total_vendas:real
+salario_final:real
+inicio
+	escreva ("Digite o nome do vendedor:")
+	leia(nome_vendedor)
+	escreva ("Digite o salário fixo do vendedor:")
+	leia(salario_fixo)
+	escreva ("Digite o total de vendas em dinheiro no mês:")
+	leia(total_vendas)
+	escreval()
+	
+	salario_final <- (total_vendas*0.15)+salario_fixo
+	escreval("O salario final do vendedor ",nome_vendedor," é: ",salario_final)
+fimalgoritmo

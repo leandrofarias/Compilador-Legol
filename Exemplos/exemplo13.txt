@@ -1,0 +1,34 @@
+algoritmo "Exemplo13"
+var
+altura:real
+sexo:caractere
+peso_calculado:real
+peso:real
+inicio
+escreva("Digite a sua altura: ")
+leia(altura)
+
+repita
+      escreva("Digite o seu sexo (m ou f): ")
+      leia(sexo)
+ate ((sexo = "m") ou (sexo = "f"))
+
+se (sexo = "m") entao
+   peso_calculado <- (72.7*altura)-58
+senao
+     peso_calculado <- (62.1*altura)-44.7
+fimse
+
+escreva("Digite o seu peso: ")
+leia(peso)
+
+se (peso = peso_calculado) entao
+   escreva("Você está dentro do peso!")
+senao
+     se (peso > peso_calculado) entao
+        escreva("Você está acima do peso!")
+     senao
+          escreva("Você está abaixo do peso!")
+     fimse
+fimse
+fimalgoritmo

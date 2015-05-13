@@ -1,0 +1,10 @@
+algoritmo "Exemplo5"
+var
+medidaCm:real
+medidaM:real
+inicio
+      escreva("Digite uma medida em centímetros: ")
+      leia(medidaCm)
+      medidaM <- medidaCm/100
+      escreva("A medida em metros é igua a ", medidaM)
+fimalgoritmo

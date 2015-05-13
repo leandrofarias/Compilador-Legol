@@ -1,0 +1,30 @@
+algoritmo "Exemplo32"
+var
+A: real
+B: real
+C: caractere
+
+inicio
+escreva("Digite o primeiro número: ")
+leia(A)
+escreva("Digite o segundo número: ")
+leia(B)
+escreva("Digite a operação desejada (+ - / *): ")
+leia(C)
+escolha C
+    caso "+"
+        escreval("A+B =",A+B)
+    caso "-"
+        escreval("A-B ",A-B)
+    caso "*"
+	escreval("A*B =",A*B)
+    caso "/"
+        se B = 0 entao
+           escreval("Erro, um número não pode ser dividido por 0!")
+        senao
+            escreval("A/B =",A/B)
+        fimse
+    outrocaso
+        escreval("Operador não definido!")
+fimescolha
+fimalgoritmo

@@ -1,0 +1,64 @@
+algoritmo "Exemplo39"
+var
+a:real
+b:real
+   
+// função para soma
+funcao soma(a:real,b:real):real
+var
+res:real
+inicio
+	res<- a + b
+	retorne res
+fimfuncao
+
+// função para subtração
+funcao sub(a:real,b:real): real
+var
+res: real
+inicio
+	res<- a - b
+        retorne res
+fimfuncao
+
+// funçao para multiplicação
+funcao mult(a:real,b:real): real
+var
+res: real
+inicio
+	res <- a * b
+	retorne res
+fimfuncao
+        
+// função para divisão
+funcao divi(a:real,b:real): real
+var
+res:real
+inicio
+	se (b <> 0) entao
+		res<- a / b
+		retorne res
+	fimse
+fimfuncao
+     
+// função para o resto da divisão
+funcao resto(a:inteiro,b:inteiro): inteiro
+var
+res:inteiro
+inicio
+	se (b <> 0) entao
+		res<- a mod b
+		retorne res
+	fimse
+fimfuncao
+
+inicio
+        escreva ("Valor 1: ")
+        leia(a)
+        escreva ("Valor 2: ")
+        leia(b)
+        escreval ("Resultado da soma: ",soma(a,b))
+        escreval ("Resultado da subtração: ", sub(a,b))
+        escreval ("Resultado da Multiplicação: ",mult(a,b))
+        escreval ("Resultado da Divisão: ",divi(a,b))
+fimalgoritmo

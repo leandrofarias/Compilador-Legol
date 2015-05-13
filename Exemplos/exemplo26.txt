@@ -1,0 +1,16 @@
+algoritmo "Exemplo26"
+var
+valor_inicial:real
+lucro:real
+valor_final:real
+inicio
+	escreva("Informe o valor do produto: ")
+	leia(valor_inicial)
+	escreval()
+
+	escreva("Informe o lucro desejado (em %): ")
+	leia(lucro)
+	
+	valor_final <- valor_inicial + valor_inicial*(lucro/100)
+	escreval("Novo valor do produto para obter um lucro de ",lucro,"%: ",valor_final, " reais.")
+fimalgoritmo

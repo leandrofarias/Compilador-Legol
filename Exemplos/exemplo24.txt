@@ -1,0 +1,31 @@
+algoritmo "Exemplo24"
+var
+n:inteiro
+i:inteiro
+soma:inteiro
+idade:vetor[0..100] de inteiro
+media:real
+inicio
+	escreval("A turma é formada por quantas pessoas: ")
+	leia(n)
+	
+	soma <- 0
+	
+	para i de 0 ate n faca
+		escreva("Digite a sua idade: ")
+		leia(idade[i])
+		soma <- soma + idade[i]
+	fimpara
+	
+	media <- soma/n
+	
+	se (media < 26) entao
+		escreva("A turma é jovem!")
+	senao
+		se (media < 61) entao
+			escreva("A turma é adulta!")
+		senao
+			escreva("A turma é idosa!")
+		fimse
+	fimse
+fimalgoritmo

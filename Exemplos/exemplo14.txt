@@ -1,0 +1,20 @@
+algoritmo "Exemplo14"
+var
+peso:real
+limite:real
+excesso:real
+multa:real
+inicio
+      limite <- 50
+      excesso <- 0
+      multa <- 0
+      
+      escreva("Digite o peso total dos peixes: ")
+      leia(peso)
+      se (peso > limite) entao
+         excesso <- peso - limite
+         multa <- excesso*4
+      fimse
+      escreval("Excesso: ", excesso, " quilogramas.")
+      escreval("Multa: ", multa, " reais.")
+fimalgoritmo

@@ -1,0 +1,19 @@
+algoritmo "Exemplo15"
+var
+tamanho:real
+velocidade:real
+tempo:real
+inicio
+      escreva("Digite o tamanho de um arquivo em MB: ")
+      leia(tamanho)
+      tamanho <- tamanho*1024*1024*8
+      
+      escreva("Digite a velocidade do link de Internet em Mbps: ")
+      leia(velocidade)
+      velocidade <- velocidade*1000000
+      
+      tempo <- tamanho/velocidade
+      tempo <- tempo/60
+      
+      escreva("O tempo aproximado de download do arquivo usando este link é ", tempo, " minutos.")
+fimalgoritmo

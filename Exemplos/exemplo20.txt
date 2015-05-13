@@ -1,0 +1,28 @@
+algoritmo "Exemplo20"
+var
+letra:caractere
+inicio
+	escreval("Digite uma letra: ")
+	leia(letra)
+	se (letra = "a") entao //verifica se é uma vogal
+		escreval("é uma vogal")
+	senao
+		se (letra = "e") entao
+			escreval("é uma vogal")
+		senao
+			se (letra = "i") entao
+				escreval("é uma vogal")
+			senao
+				se (letra = "o") entao
+					escreval("é uma vogal")
+				senao
+					se (letra = "u") entao
+						escreval("é uma vogal")
+					senao
+						escreval("é uma consoante")
+					fimse
+				fimse
+			fimse
+		fimse
+	fimse
+fimalgoritmo

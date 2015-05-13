@@ -1,0 +1,22 @@
+algoritmo "Exemplo44"
+var
+n : inteiro
+procedimento imprime(n : inteiro)
+var
+i:inteiro
+j:inteiro
+inicio
+	para i de 1 ate n faca
+		para j de 1 ate i faca
+			escreva(i)
+		fimpara
+		
+		escreval(" ")
+	fimpara
+fimprocedimento
+
+inicio
+	escreva("Informe o valor de n: ")
+	leia(n)
+	imprime(n)
+fimalgoritmo

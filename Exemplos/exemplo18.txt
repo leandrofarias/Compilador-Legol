@@ -1,0 +1,13 @@
+algoritmo "Exemplo18"
+var
+num:inteiro //variavel que receberá o numero
+inicio
+	escreva ("Digite um número: ")
+	leia (num)
+	se (num > 0) entao // Aqui haverá comparação para saber se o numero é negativo e positivo
+		escreva ("O numero é positivo.")
+	fimse
+	se (num < 0) entao
+		escreva ("O numero é negativo.") // se o numero for menor que 0 entao é negativo
+	fimse
+fimalgoritmo

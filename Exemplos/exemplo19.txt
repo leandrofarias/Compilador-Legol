@@ -1,0 +1,17 @@
+algoritmo "Exemplo19"
+var
+aux: caractere
+inicio
+	escreva ("Digite seu sexo, f - feminino e m - masculino") // O usuário deverá informar o seu sexo
+	leia (aux)
+
+	se (aux = "f") entao // caso digite f, o programa escreve feminino
+		escreva("Feminino - ",aux)
+	senao
+		se (aux = "m") entao // caso digite m, o programa escreve masculino
+			escreva("Masculino - ",aux)
+		senao
+			escreva ("invalido")
+		fimse
+	fimse
+fimalgoritmo

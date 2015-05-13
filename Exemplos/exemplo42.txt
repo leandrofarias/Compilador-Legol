@@ -1,0 +1,20 @@
+algoritmo "Exemplo42"
+var
+a : inteiro
+resultado : caractere
+
+funcao verifica(a : inteiro) : caractere
+inicio
+	se (a > 0) entao
+		retorne "Positivo."
+	senao
+		retorne "Negativo."
+	fimse
+fimfuncao
+
+inicio
+	escreva("Informe o valor a ser verificado: ")
+	leia(a)
+	resultado <- verifica(a)
+	escreval(resultado)
+fimalgoritmo

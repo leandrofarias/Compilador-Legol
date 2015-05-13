@@ -1,0 +1,13 @@
+algoritmo "Exemplo3"
+var
+numero1:inteiro
+numero2:inteiro
+soma:inteiro
+inicio
+        escreva("Digite o primeiro número inteiro: ")
+        leia(numero1)
+        escreva("Digite o segundo número inteiro: ")
+        leia(numero2)
+        soma <- numero1 + numero2
+        escreva("A soma dos números é ", soma)
+fimalgoritmo

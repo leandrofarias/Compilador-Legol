@@ -1,0 +1,12 @@
+algoritmo "Exemplo12"
+var
+altura:real
+peso:real
+inicio
+escreva("Digite a altura de um homem: ")
+leia(altura)
+
+peso <- (72.7*altura)-58
+
+escreval("O peso ideal dele é ", peso, " Kg.")
+fimalgoritmo

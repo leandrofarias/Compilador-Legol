@@ -1,0 +1,36 @@
+algoritmo "Exemplo35"
+var
+nota:real
+nome:caractere
+classificacao: caractere
+
+inicio
+escreva("Digite o nome: ")
+leia(nome)
+escreva("Digite a nota do exame final: ")
+leia(nota)
+
+se nota >= 8.10 entao
+    classificacao <- "A"
+senao
+    se nota >= 7.8 entao
+        classificacao <- "B"
+    senao
+        se nota >= 6.7 entao
+            classificacao <- "C"
+        senao
+            se nota >= 5.6 entao
+                classificacao <- "D"
+	    senao
+		classificacao <- "R"
+            fimse
+        fimse
+    fimse
+fimse
+
+escreval("Nome: ",nome)
+escreval("Nota final: ", nota)
+escreval("Classificação: ",classificacao)
+
+
+fimalgoritmo

@@ -1,0 +1,15 @@
+algoritmo "Exemplo4"
+var
+nota:real
+soma:real
+i:inteiro
+inicio
+      soma <- 0
+      para i de 1 ate 4 faca
+           escreva("Digite a nota [", i, "]: ")
+           leia(nota)
+           soma <- soma + nota
+      fimpara
+
+      escreva("A média das notas é:", soma/4)
+fimalgoritmo

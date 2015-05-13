@@ -1,0 +1,17 @@
+algoritmo "Exemplo29"
+var
+num: inteiro
+inicio
+	escreva("Informe um número inteiro: ")
+	escreval()
+
+	leia(num)
+	
+	se num<>0 entao
+		se (num mod 2 = 0) entao
+      			escreval("O número é par.")
+   		senao
+		        escreval("O número é ímpar.")
+   		fimse
+	fimse
+fimalgoritmo

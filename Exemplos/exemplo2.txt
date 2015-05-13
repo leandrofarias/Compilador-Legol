@@ -1,0 +1,8 @@
+algoritmo "Exemplo2"
+var
+numero:inteiro
+inicio
+	escreva("Digite um número inteiro: ")
+	leia(numero)
+	escreva("O número informado foi ", numero)
+fimalgoritmo

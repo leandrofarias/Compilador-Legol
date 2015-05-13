@@ -1,0 +1,12 @@
+algoritmo "Exemplo28"
+var
+h:real 
+t:real
+inicio
+	escreva("Informe o valor da altura do objeto (em metros): ")
+	leia(h)
+	escreval()
+
+	t <- raizq((2*h)/9.8)
+	escreval("Tempo de queda livre: ",t," segundos")
+fimalgoritmo

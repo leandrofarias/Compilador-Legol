@@ -1,0 +1,10 @@
+algoritmo "Exemplo6"
+var
+raio:real
+area:real
+inicio
+      escreva("Digite o tamanho do raio de uma circunferência: ")
+      leia(raio)
+      area <- 3.14*(raio^2)
+      escreva("A área da circunferência é igual a ", area)
+fimalgoritmo

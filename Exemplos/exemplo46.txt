@@ -1,0 +1,14 @@
+algoritmo "Exemplo46"
+var
+distancia:real
+combustivel:real
+consumo:real
+inicio
+	escreva("Digite a distância percorrida(Km):")
+	leia(distancia)
+	escreva("Digite o total de combustível gasto(L):")
+	leia(combustivel)
+
+	consumo <- distancia/combustivel
+	escreval("O consumo médio do automóvel é de ", consumo," Km/L")
+fimalgoritmo

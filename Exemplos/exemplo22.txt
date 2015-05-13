@@ -1,0 +1,43 @@
+algoritmo "Exemplo22"
+var
+a:inteiro
+b:inteiro
+c:inteiro // Declaração das variáveis
+inicio
+	escreval("Informe 3 números: ") // Informar os 3 números
+	leia(a)
+	leia(b)
+	leia(c)
+
+	se ((a = b) e (b = c)) entao // Se os 3 números iguais
+		escreval("Números iguais")
+	senao
+		se (a > b) entao
+			se (a > c) entao
+				escreval("O maior número é: ", a)
+
+				se (c < b) entao
+					escreval("O menor número é: ", c)
+				senao
+					escreval("O menor número é: ", b)
+				fimse
+			senao
+				escreval("O maior número é: ", c)
+				escreval("O menor número é: ", b)
+			fimse
+		senao
+			se (b > c) entao
+				escreval("O maior número é: ", b)
+
+				se (c < a) entao
+					escreval("O menor número é: ", c)
+				senao
+					escreval("O menor número é: ", a)
+				fimse
+			senao
+				escreval("O maior número é: ", c)
+				escreval("O menor número é: ", a)
+			fimse
+		fimse
+	fimse
+fimalgoritmo

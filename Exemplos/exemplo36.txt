@@ -1,0 +1,38 @@
+algoritmo "Exemplo36"
+
+var
+ant1:inteiro
+ant2:inteiro
+atual:inteiro
+n:inteiro
+i:inteiro
+
+inicio
+repita
+	escreva("Você quer quantos números da sequência de Fibonacci? ")
+	leia(n)
+ate (n > 0)
+
+ant1<-1
+ant2<-1
+
+escreval("Sequência Fibonacci:")
+
+se (n = 1) entao
+	escreval(ant1)
+senao
+	escreval(ant1)
+	escreval(ant2)
+
+	se (n > 2) entao
+		i<-3
+		enquanto i<=n faca
+			 atual<-ant1+ant2
+			 escreval(atual)
+			 ant1<-ant2
+			 ant2<-atual
+			 i<-i+1
+		fimenquanto
+	fimse
+fimse
+fimalgoritmo

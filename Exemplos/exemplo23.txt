@@ -1,0 +1,20 @@
+algoritmo "Exemplo23"
+var
+ProdutoA: real
+ProdutoB: real
+ProdutoC: real
+inicio
+escreval("Informe A, B e C:") // Informar os preços dos três produtos
+leia(ProdutoA) // Ler o primeiro produto
+leia(ProdutoB) // Ler o segundo produto
+leia(ProdutoC) // Ler o terceiro produto
+se (ProdutoA < ProdutoB) e (ProdutoA < ProdutoC) entao // Se o primeiro produto for o mais barato
+escreval ("Compre o produto A")
+senao
+se (ProdutoB < ProdutoC) entao // Se o segundo produto for o mais barato
+escreval("Compre o produto B")
+senao // Se o terceiro produto for o mais barato
+escreval("Compre o produto C")
+fimse
+fimse
+fimalgoritmo

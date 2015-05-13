@@ -1,0 +1,11 @@
+algoritmo "Exemplo8"
+var
+porHora:real
+horas:real
+inicio
+      escreva("Quanto você ganha por hora? ")
+      leia(porHora)
+      escreva("Quantas horas você trabalhou este mês? ")
+      leia(horas)
+      escreva("Seu salário este mês é ", porHora*horas, " reais.")
+fimalgoritmo

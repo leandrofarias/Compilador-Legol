@@ -1,0 +1,33 @@
+algoritmo "Exemplo47"
+var
+vogal:caractere
+
+inicio
+	escreva("Digite uma vogal: ")
+	leia(vogal)
+
+	escolha vogal
+		caso "a"
+			escreval("Você digitou a vogal A!")
+		caso "e"
+			escreval("Você digitou a vogal E!")
+		caso "i"
+			escreval("Você digitou a vogal I!")
+		caso "o"
+			escreval("Você digitou a vogal O!")
+		caso "u"
+			escreval("Você digitou a vogal U!")
+		caso "A"
+			escreval("Você digitou a vogal A!")
+		caso "E"
+			escreval("Você digitou a vogal E!")
+		caso "I"
+			escreval("Você digitou a vogal I!")
+		caso "O"
+			escreval("Você digitou a vogal O!")
+		caso "U"
+			escreval("Você digitou a vogal U!")
+		outrocaso
+			escreval("Você não digitou uma vogal!")
+	fimescolha
+fimalgoritmo

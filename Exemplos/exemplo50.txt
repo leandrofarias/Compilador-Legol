@@ -1,0 +1,49 @@
+algoritmo "Exemplo50"
+var
+nota1:real
+nota2:real
+prova_final:real
+soma:real
+media:real
+
+funcao somar(a:real, b:real):real
+var
+soma:real
+inicio
+	soma <- a + b
+	retorne soma
+fimfuncao
+
+funcao calcular_media(soma:real, n:inteiro):real
+inicio
+	retorne soma/n
+fimfuncao
+
+inicio
+	escreva("Digite a primeira nota: ")
+	leia(nota1)
+	escreva("Digite a segunda nota: ")
+	leia(nota2)
+	soma <- somar(nota1, nota2)
+	media <- calcular_media(soma, 2)
+
+	se (media >= 8) entao
+		escreval("Aprovado direto com média ", media)
+	senao
+		se (media >= 4) entao
+			escreval("Tem que fazer prova final!")
+			escreva("Digite a nota da prova final: ")
+			leia(prova_final)
+			soma <- somar(soma, prova_final)
+			media <- calcular_media(soma, 3)
+
+			se (media >= 6) entao
+				escreval("Aprovado com média ", media)
+			senao
+				escreval("Reprovado com média ", media)
+			fimse
+		senao
+			escreval("Reprovado sem direito a prova final com média ", media)
+		fimse
+	fimse
+fimalgoritmo

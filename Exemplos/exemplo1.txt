@@ -1,0 +1,4 @@
+algoritmo "Exemplo1"
+inicio
+	escreva("Alô, Mundo!")
+fimalgoritmo
